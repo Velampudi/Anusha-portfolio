@@ -23,7 +23,7 @@ function Navbar() {
 
       {/* Nav Links */}
       <ul className={`md:flex md:gap-6 ${isOpen ? 'block' : 'hidden'} absolute md:static bg-black md:bg-transparent left-0 top-16 w-full md:w-auto text-center md:text-left`}>
-        <li><Link to="/" className="block py-2 px-4 hover:text-yellow-400">Home</Link></li>
+        <li><Link to="/Anusha-portfolio" className="block py-2 px-4 hover:text-yellow-400">Home</Link></li>
         <li><Link to="/About" className="block py-2 px-4 hover:text-yellow-400">About</Link></li>
         <li><Link to="/Skills" className="block py-2 px-4 hover:text-yellow-400">Skills</Link></li>
         <li><Link to="/Projects" className="block py-2 px-4 hover:text-yellow-400">Projects</Link></li>

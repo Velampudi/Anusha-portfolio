@@ -33,7 +33,7 @@ function Home() {
                     </button>
 
                     <a
-                        href="https://drive.google.com/file/d/1n2LJ6wNMCHpsjU1D3nbN7VDvxT_orRIV/view?usp=sharing"
+                        href="https://drive.google.com/file/d/19OZcSNCSfO8tHZH2lrayJS9ZrBCp_tLR/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="border border-yellow-400 px-6 py-2 rounded-md hover:bg-yellow-400 hover:text-black transition"

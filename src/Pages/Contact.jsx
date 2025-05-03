@@ -59,7 +59,7 @@ const Contact = () => {
               name="email"
               required
               value = {FormData.email}
-              placeholder="Email address"
+              placeholder=" Your Email "
               onChange={(e) => setFormData({...FormData, email: e.target.value})}
               className="w-1/2 bg-[#1a1a1a] p-3 item-center rounded-md border border-gray-700 focus:outline-none focus:ring-1 focus:ring-green-400"
             />
@@ -78,7 +78,6 @@ const Contact = () => {
           >
             Submit
           </button>
-          w-full
         </form>
       </div>
 
@@ -111,28 +110,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-{/* Contact Info 
-      <div className="text-sm space-y-8">
-        <div className="flex items-center gap-4">
-          <FaPhone className="text-yellow-400 text-xl" />
-          <div>
-            <p className="text-gray-400">Phone</p>
-            <p>(+91) 8712288069</p>
-          </div>
-        </div>
-        <div className="flex items-center gap-4">
-          <FaEnvelope className="text-yellow-400 text-xl" />
-          <div>
-            <p className="text-gray-400">Email</p>
-            <p>velampudianusha1727@email.com</p>
-          </div>
-        </div>
-        <div className="flex items-center gap-4">
-          <FaMapMarkerAlt className="text-yellow-400 text-xl" />
-          <div>
-            <p className="text-gray-400">Address</p>
-            <p>Kakinada</p>
-          </div>
-        </div>
-      </div>*/}
