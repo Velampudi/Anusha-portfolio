@@ -31,7 +31,7 @@ const Projects = () => {
 
   return (
     <div className="text-white bg-gray-950 min-h-screen">
-      <h1 className='text-4xl font-bold text-center '>Human Resource Management System</h1>
+      <h1 className='text-4xl font-bold text-center '>Projects</h1>
       <div className="flex flex-wrap gap-8 justify-center p-6 bg-gray-950 ">
         {projectData.map((project, idx) => (
           <ProjectCard key={idx} {...project} />
