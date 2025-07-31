@@ -4,11 +4,18 @@ import ProjectCard from "./ProjectCard";
 const Projects = () => {
   const projectData = [
     {
-      title: "DIGITAL HRMS",
-      description: "Digital HRMS is a smart Human Resource Management System designed to simplify HR operations and boost team efficiency.",
-      tags: ["HTML5", "Tailwind CSS", "JavaScript(ES6+)", "React js"],
-      image: "https://www.digitalhrms.com/images/logo.svg",
-      Livelink: "#",
+      title: "STORY HEAVEN",
+      description: "A responsive online bookstore built with React.js and Tailwind CSS. Includes pages like Home, Shop, Cart, and Login with a clean layout and modular components. Deployed on Netlify.",
+      tags: ["HTML5,", "Tailwind CSS,", "JavaScript (ES6+),"," React.js,","Netlify"],
+      image: "https://bookshome.in/wp-content/uploads/2023/04/Paging-Readers-Books.png",
+      liveLink: "https://delightful-kitsune-9307f3.netlify.app/",
+    },
+    {
+      title: "GRAMEENA BANK WEB APP",
+      description: "A simple online banking application that allows users to securely log in, view account balance and details, and perform basic banking operations such as deposit, withdrawal, and fund transfer. The app provides a clean and responsive dashboard UI, making it user-friendly for everyday transactions.",
+      tags: ["Java", "Spring Boot", "HTML"," CSS","MySQL"],
+      image: "https://saharaigroup.com/images/bank.jpeg",
+      liveLink: "https://github.com/Velampudi/Bank-app",
     },
     {
       title: "INSURANCE MANAGEMENT SYSTEM",

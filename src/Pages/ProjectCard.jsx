@@ -3,7 +3,7 @@ import { FaEye, FaCode } from "react-icons/fa";
 
 const ProjectCard = ({ title, description, tags, image, liveLink, sourceLink }) => {
   return (
-    <div className="bg-gray-950 text-white rounded-xl shadow-lg overflow-hidden w-full max-w-sm transition transform hover:scale-105">
+    <div className="bg-gray-800 text-white rounded-xl shadow-lg overflow-hidden w-full max-w-sm transition transform hover:scale-105">
       <img src={image} alt={title} className="w-full h-40 object-cover" />
       <div className="p-4">
         <h2 className="text-xl font-semibold mb-2">{title}</h2>

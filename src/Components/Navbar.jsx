@@ -6,14 +6,10 @@ function Navbar() {
 
   return (
     <nav className="bg-gray-950 text-white p-4 flex items-center justify-between">
-
       <div className='flex'>
         <p className='text-4xl font-bold text-yellow-400'>V</p>
         <span className='pl-0 pt-2 text-2xl'>elampudi.</span>
       </div>
-
-
-
       <button
         className="md:hidden text-white"
         onClick={() => setIsOpen(!isOpen)}
